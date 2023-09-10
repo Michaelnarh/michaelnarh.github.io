@@ -30,6 +30,7 @@ import {
 	projectEE,
 	projectFF,
 	projectGG,
+	laravel,
 } from "../assets";
 
 // Navbar Links
@@ -104,7 +105,7 @@ const technologies = [
 	},
 	{
 		name: "Larvel",
-		icon: nodejs,
+		icon: laravel,
 	},
 	{
 		name: "MongoDB",
