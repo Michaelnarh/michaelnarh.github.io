@@ -81,6 +81,11 @@ const Contact = () => {
     setLoading(true);
 
     // send email
+    // emailjs.send("service_nz6yysn","template_rgs1xwb",{
+    //   to_name: "michael",
+    //   from_name: "james",
+    //   message: "show me whether it works",
+    //   });
     emailjs
       .send(
         import.meta.env.VITE_APP_SERVICE_ID,

@@ -7,6 +7,7 @@ import {  menu, close, logo1 } from "../assets";
 
 // Navbar
 const Navbar = () => {
+  console.log(import.meta.env.VITE_APP_SERVICE_ID);
   // state variables
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
