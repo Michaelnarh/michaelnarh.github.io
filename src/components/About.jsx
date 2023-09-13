@@ -61,7 +61,7 @@ const About = () => {
       </motion.p>
       </div>
       <div className="w-1/3">
-        <img src={project1} alt="" />
+        <img src={project1} alt="imgage" className="object-cover w-full h-full" />
       </div>
      </div>
      
