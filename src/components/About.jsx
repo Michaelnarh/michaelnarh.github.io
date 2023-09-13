@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { project1 } from "../assets";
+import { mtn, } from "../assets";
 
 // Service Card
 const ServiceCard = ({ index, title, icon }) => {
@@ -39,7 +39,7 @@ const About = () => {
   return (
     <>
       {/* Title */}
-      <div className="flex">
+      <div className="flex space-x-4">
 
        <div className="w-1/2 p-4">
 
@@ -61,7 +61,7 @@ const About = () => {
       </motion.p>
       </div>
       <div className="w-1/3">
-        <img src={project1} alt="imgage" className="object-cover w-full h-full" />
+        <img src={mtn} alt="imgage" className="object-cover w-full h-full" />
       </div>
      </div>
      
