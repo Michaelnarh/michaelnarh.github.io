@@ -61,14 +61,9 @@ const About = () => {
       </motion.p>
       </div>
       <div className="w-1/3">
-        <img src={mtn} alt="imgage" className="object-cover w-full h-full" />
+        <img src={mtn} alt="image" className="object-cover w-full h-full" />
       </div>
      </div>
-     
-         
-  
-        
-    
             {/* Service Card */}
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, i) => (
