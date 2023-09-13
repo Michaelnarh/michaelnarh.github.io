@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { mtn, } from "../assets";
+import { mtn } from "../assets";
 
 // Service Card
 const ServiceCard = ({ index, title, icon }) => {
