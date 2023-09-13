@@ -41,7 +41,7 @@ const About = () => {
       {/* Title */}
       <div className="flex">
 
-<div className="flex-auto">
+       <div className="w-1/2 p-4">
 
       <motion.div variants={textVariant()} >
         <p className={styles.sectionSubText}>Introduction</p>
@@ -60,12 +60,16 @@ const About = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
       </div>
-           </div>
-          <div className="flex-auto">
-            <img src={project1} alt="" />
-          </div>
-
-      {/* Service Card */}
+      <div className="w-1/3">
+        <img src={project1} alt="" />
+      </div>
+     </div>
+     
+         
+  
+        
+    
+            {/* Service Card */}
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, i) => (
           <ServiceCard key={service.title} index={i} {...service} />
