@@ -193,7 +193,7 @@ const testimonials = [
 		name: "Prof. James Osei Mensah",
 		designation: "Senior Lecturer KNUST",
 		company: "KOHs Hostels",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
+		image: "https://randomuser.me/api/portraits/men/4.jpg",
 	},
 	{
 		testimonial:
@@ -209,7 +209,7 @@ const testimonials = [
 		name: "Emmanuel Agnmortey",
 		designation: "CEO",
 		company: "Krisposs Ghana",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
+		image: "https://randomuser.me/api/portraits/men/6.jpg",
 	},
 ];
 
