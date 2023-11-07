@@ -189,7 +189,7 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+			"I thought it was impossible to make a website as beautiful as our product, but Michael proved me wrong.",
 		name: "Prof. James Osei Mensah",
 		designation: "Senior Lecturer KNUST",
 		company: "KOHs Hostels",
@@ -197,7 +197,7 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
+			"I've never met a web developer who truly cares about their clients' success like Michael does.",
 		name: "Prof. Marian Nkansah",
 		designation: "COO",
 		company: "DEF Corp",
@@ -205,7 +205,7 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+			"After Michael optimized our website, our traffic increased by 50%. We can't thank them enough!",
 		name: "Emmanuel Agnmortey",
 		designation: "CEO",
 		company: "Krisposs Ghana",
