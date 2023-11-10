@@ -12,6 +12,7 @@ import preview from "./preview.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mtn from "./mtn_studio_1.png";
+import profJames from "./prof_james.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -94,4 +95,5 @@ export {
 	projectFF,
 	projectGG,
 	laravel,
+	profJames,
 };

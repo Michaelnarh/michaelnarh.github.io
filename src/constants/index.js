@@ -31,6 +31,7 @@ import {
 	projectFF,
 	projectGG,
 	laravel,
+	profJames,
 } from "../assets";
 
 // Navbar Links
@@ -193,7 +194,7 @@ const testimonials = [
 		name: "Prof. James Osei Mensah",
 		designation: "Senior Lecturer KNUST",
 		company: "KOHs Hostels",
-		image: "https://randomuser.me/api/portraits/men/4.jpg",
+		image: profJames,
 	},
 	{
 		testimonial:
