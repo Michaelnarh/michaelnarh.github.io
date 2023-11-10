@@ -13,6 +13,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import mtn from "./mtn_studio_1.png";
 import profJames from "./prof_james.jpg";
+import sirEmma from "./sir_emma.jpg";
+import profMariana from "./prof_mariana.jpeg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -96,4 +98,6 @@ export {
 	projectGG,
 	laravel,
 	profJames,
+	sirEmma,
+	profMariana,
 };

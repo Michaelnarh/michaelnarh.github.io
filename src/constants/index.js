@@ -32,6 +32,8 @@ import {
 	projectGG,
 	laravel,
 	profJames,
+	sirEmma,
+	profMariana,
 } from "../assets";
 
 // Navbar Links
@@ -202,7 +204,7 @@ const testimonials = [
 		name: "Prof. Marian Nkansah",
 		designation: "COO",
 		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+		image: profMariana,
 	},
 	{
 		testimonial:
@@ -210,7 +212,7 @@ const testimonials = [
 		name: "Emmanuel Agnmortey",
 		designation: "CEO",
 		company: "Krisposs Ghana",
-		image: "https://randomuser.me/api/portraits/men/6.jpg",
+		image: sirEmma,
 	},
 ];
 
