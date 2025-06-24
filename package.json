@@ -1,6 +1,6 @@
 {
   "name": "v4",
-  "homepage": "https://Michaelnarh/michaelnarh.github.io",
+  "homepage": "https://michaelnarh.github.io",
   "description": "Personal Website",
   "version": "1.0.0",
   "author": "Michael Tetteh Narh <michaelnarh@gmail.com>",
@@ -22,7 +22,7 @@
     "clean": "gatsby clean",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
+    "deploy": "gatsby build && npx gh-pages -d public -b gh-pages",
     "predeploy": "npm run build"
   },
   "lint-staged": {
