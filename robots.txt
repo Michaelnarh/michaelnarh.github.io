@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://michaelnarh.github.io/sitemap.xml
+Host: https://michaelnarh.github.io
