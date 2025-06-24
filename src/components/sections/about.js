@@ -160,7 +160,7 @@ const About = () => {
             <p>
               Since then, I’ve had the opportunity to work in different environments including{' '}
               <a href="https://uits.knust.edu.gh/" target="_blank" rel="noreferrer">
-                KNUST University Technology Services
+                KNUST, University Information Technology Services
               </a>
               ,
             </p>
