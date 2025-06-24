@@ -135,33 +135,42 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I'm Michael Narh a skilled software developer with experience in TypeScript and
+              Javascript, and expertise in frameworks like React, Node.js, Express, Docker. I'm a
+              quick learner and collaborate closely with clients to create efficient, scalable, and
+              user-friendly solutions that solve real-world problems
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Since then, I’ve had the opportunity to work in different environments including
+              <a href="https://uits.knust.edu.gh/" target="_blank" rel="noreferrer">
+                KNUST University Technology Services
+              </a>
+              ,
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I currently serve as a core team member at
+              <a href="https://superlaxtech.com" target="_blank" rel="noreferrer">
+                Superlax Technologies
+              </a>
+              , a growing tech startup focused on delivering innovative web and mobile applications
+              tailored for Africa and beyond.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              I also work closely with the <strong>Directorate of Student Affairs</strong>, managing
+              social media strategies and digital communications to improve student engagement and
+              outreach and other softwares to reach students.
+            </p>
+
+            <ul>
+              <li>React &amp; TypeScript</li>
+              <li>Node.js &amp; Express</li>
+              <li>MongoDB &amp; PostgreSQL</li>
+              <li>Docker &amp; CI/CD Pipelines</li>
+              <li>Tailwind CSS &amp; Figma</li>
+            </ul>
           </div>
 
           <ul className="skills-list">
