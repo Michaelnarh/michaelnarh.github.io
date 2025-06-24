@@ -125,7 +125,23 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Express',
+    'Node.js',
+    'WordPress',
+    'MongoDB',
+    'PostgreSQL',
+    'AWS (S3, EC2)',
+    'Docker',
+    'Tailwind CSS',
+    'Figma',
+    'HTML & CSS',
+    'Git & GitHub',
+    'RESTful APIs',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -138,11 +154,11 @@ const About = () => {
               I'm Michael Narh a skilled software developer with experience in TypeScript and
               Javascript, and expertise in frameworks like React, Node.js, Express, Docker. I'm a
               quick learner and collaborate closely with clients to create efficient, scalable, and
-              user-friendly solutions that solve real-world problems
+              user-friendly solutions that solve real-world problems.
             </p>
 
             <p>
-              Since then, I’ve had the opportunity to work in different environments including
+              Since then, I’ve had the opportunity to work in different environments including{' '}
               <a href="https://uits.knust.edu.gh/" target="_blank" rel="noreferrer">
                 KNUST University Technology Services
               </a>
@@ -163,14 +179,6 @@ const About = () => {
               social media strategies and digital communications to improve student engagement and
               outreach and other softwares to reach students.
             </p>
-
-            <ul>
-              <li>React &amp; TypeScript</li>
-              <li>Node.js &amp; Express</li>
-              <li>MongoDB &amp; PostgreSQL</li>
-              <li>Docker &amp; CI/CD Pipelines</li>
-              <li>Tailwind CSS &amp; Figma</li>
-            </ul>
           </div>
 
           <ul className="skills-list">
