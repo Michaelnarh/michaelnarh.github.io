@@ -41,6 +41,43 @@ const StyledContactSection = styled.section`
   }
 `;
 
+const ContactDetails = styled.div`
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid var(--lightest-navy);
+
+  .contact-item {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .contact-label {
+    display: block;
+    font-size: var(--fz-xs);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: var(--light-slate);
+    font-family: var(--font-mono);
+  }
+
+  .contact-info {
+    font-size: var(--fz-lg);
+    color: var(--slate);
+    transition: var(--transition);
+
+    &:hover {
+      color: var(--green);
+    }
+  }
+
+  a.contact-info {
+    ${({ theme }) => theme.mixins.link};
+  }
+`;
+
 const Contact = () => {
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -53,20 +90,54 @@ const Contact = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
+  // Contact details from screenshot
+  const contactInfo = [
+    {
+      label: 'LINKEDIN',
+      content: 'Michael Narh',
+      url: 'https://www.linkedin.com/in/michaelnarh',
+    },
+    {
+      label: 'EMAIL ADDRESS',
+      content: 'mailto:michaeltetteh62@gmail.com',
+      url: 'mailto:michaeltetteh62@gmail.com',
+    },
+    {
+      label: 'WEBSITE',
+      content: 'michaelnarh.github.io',
+      url: 'https://michaelnarh.github.io',
+    },
+  ];
+
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">What's Next?</h2>
 
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I’m available for Employment/Research and my inbox is always open. Whether you have a
-        question or just want to say hi, I’ll always try and and get back to you!
+        I'm available for Employment/Research and my inbox is always open. Whether you have a
+        question or just want to say hi, I'll always try and get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello
       </a>
+
+      <ContactDetails>
+        {contactInfo.map((item, i) => (
+          <div key={i} className="contact-item">
+            <span className="contact-label">{item.label}</span>
+            {item.url ? (
+              <a href={item.url} className="contact-info" target="_blank" rel="noopener noreferrer">
+                {item.content}
+              </a>
+            ) : (
+              <span className="contact-info">{item.content}</span>
+            )}
+          </div>
+        ))}
+      </ContactDetails>
     </StyledContactSection>
   );
 };
