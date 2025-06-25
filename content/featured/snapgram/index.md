@@ -2,8 +2,8 @@
 date: '6'
 title: 'SnapGram '
 cover: './sg.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: '#'
+external: '#'
 tech:
   - React
   - Styled Components
