@@ -166,7 +166,7 @@ const About = () => {
             </p>
 
             <p>
-              I currently serve as a core team member at
+              I currently serve as a core team member at{' '}
               <a href="https://superlaxtech.com" target="_blank" rel="noreferrer">
                 Superlax Technologies
               </a>

@@ -1,15 +1,15 @@
 ---
 date: '3'
-title: 'Halcyon Theme'
-cover: './kosass.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'SuperLax MarketPlace'
+cover: './superlax.png'
+github: 'https://gitlab.com/michaelnarh/superlaxtech'
+external: 'https://superlaxtech.vercel.app/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - React
+  - Tawildind CSS
+  - ExpressJS
+  - MongoDB
+  - Dashboard/Vendor app
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Built with React.js, styled using Tailwind CSS, and powered by smooth user experience design, Superlax Marketplace is a dynamic e-commerce platform designed for seamless shopping and product discovery. From cart management to real-time order tracking and elegant checkout flows, every detail is crafted for both functionality and aesthetics
