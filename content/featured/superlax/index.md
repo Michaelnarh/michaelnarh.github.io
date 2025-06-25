@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '1'
 title: 'SuperLax MarketPlace'
 cover: './superlax.png'
 github: 'https://gitlab.com/michaelnarh/superlaxtech'

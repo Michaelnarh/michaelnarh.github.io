@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Student Accommodation Support'
 cover: './smh.png'
 github: 'https://gitlab.com/michaelnarh/smart-home'
