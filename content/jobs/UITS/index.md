@@ -2,7 +2,7 @@
 date: '2025-06-01'
 title: 'Software Developer'
 company: 'UITS, KNUST'
-range: 'March 2022 - present'
+range: 'Sept 2022 - present'
 ---
 
 - Developed and maintained web applications using React.js and related technologies

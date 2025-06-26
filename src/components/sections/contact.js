@@ -95,7 +95,7 @@ const Contact = () => {
     {
       label: 'LINKEDIN',
       content: 'Michael Narh',
-      url: 'https://www.linkedin.com/in/michaelnarh',
+      url: 'https://www.linkedin.com/in/michael-narh',
     },
     {
       label: 'EMAIL ADDRESS',
