@@ -3,6 +3,8 @@ date: '2017-11-01'
 title: 'E-Health Care App'
 github: ''
 external: ''
+android: ''
+ios: ''
 tech:
   - React Native
   - NodeJS
