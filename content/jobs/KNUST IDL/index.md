@@ -3,6 +3,7 @@ date: '2025-03-01'
 title: 'Contract Software Engineer'
 company: 'Institute of Distance Learning, KNUST'
 range: 'March 2025 - present'
+url:
 ---
 
 - Developed and maintained web applications using React.js and related technologies
