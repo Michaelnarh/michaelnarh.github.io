@@ -11,4 +11,4 @@ company: 'German Employer'
 showInProjects: true
 ---
 
-EOur Multi-Platform Data Detection for Work Applications implements comprehensive data gathering solutions. The process collects information from multiple websites, including video content, launch strategies, and structured data from online accounts. Application processes feature relevant and reliable auditing.
+Multi-Platform Data Detection for Work Applications implements comprehensive data gathering solutions. The process collects information from multiple websites, including video content, launch strategies, and structured data from online accounts. Application processes feature relevant and reliable auditing.
