@@ -129,8 +129,10 @@ const About = () => {
     'JavaScript (ES6+)',
     'TypeScript',
     'React',
-    'Express',
+    'Laravel',
+    'PHP',
     'Node.js',
+    'Express',
     'WordPress',
     'MongoDB',
     'PostgreSQL',
@@ -151,9 +153,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm Michael Narh a skilled software developer with experience in TypeScript and
-              Javascript, and expertise in frameworks like React, Node.js, Express, Docker. I'm a
-              quick learner and collaborate closely with clients to create efficient, scalable, and
+              I'm Michael Narh a skilled software developer with experience in JavaScript, PHP and
+              expertise in frameworks like React, Laravel, Node.js, Express, Docker. I'm a quick
+              learner and collaborate closely with clients to create efficient, scalable, and
               user-friendly solutions that solve real-world problems.
             </p>
 
