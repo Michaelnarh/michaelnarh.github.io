@@ -1,9 +1,11 @@
 ---
-date: '2020-03-27'
+date: '2025-10-15'
 title: 'KrisPoss Ghana'
 github: ''
-external: ''
+external: 'https://krispossghana.com'
 tech:
+  - Vue.js
+  - TailwindCSS
   - Laravel
   - MySQL
   - PHP
@@ -11,4 +13,4 @@ company: 'KrisPoss Ghana'
 showInProjects: true
 ---
 
-A company architecture certified to encourage employees to engage with its materials participation in group activities, and apply their knowledge to practical awareness throughout with payment using payment.
+An applicaton that showcases the products and services delilevered by Krisposs Ghana Ltd. with product inventory and request for pricing functionality.
