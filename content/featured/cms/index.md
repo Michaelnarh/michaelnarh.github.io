@@ -12,4 +12,4 @@ tech:
   - NodeJS
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A web application for managing student cases and tracking their progress. The app is comprehensively a dashboard appliction with multiple role used by the Kwame Nkrumah University of Science and Technology (KNUST) for handling student cases and tracking their progress in their academic journey.
