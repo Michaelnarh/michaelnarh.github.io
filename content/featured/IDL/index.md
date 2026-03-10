@@ -13,4 +13,4 @@ tech:
   - Dashboard
 ---
 
-An APP to that support the KNUST IDL accommodation crises.
+An application that supports the KNUST IDL accommodation crisis by providing a platform for students to find accommodation and manage their stay.

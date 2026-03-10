@@ -12,4 +12,4 @@ tech:
   - Hyper
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A web app that provides a platform for students to find accommodation and manage their stay at KNUST. The app provides a comprehensive solution for students in finding Hostels and homes at two major campuses Obuasi and Kumasi with digital addresses and provided facilities.
