@@ -1,11 +1,11 @@
 ---
 date: '3'
-title: 'Student Accommodation Support'
+title: 'Smart Home Control System'
 cover: './smh.png'
 github: 'https://gitlab.com/michaelnarh/smart-home'
 external: '#'
 tech:
-  - React
+  - React Native
   - Mobx
   - MongoDB
   - ExpressJS
